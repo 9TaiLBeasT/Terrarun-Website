@@ -58,6 +58,21 @@ const HeroSection = () => {
                   </svg>
                   Get on Google Play
                 </a>
+                
+                <a 
+                  href="https://www.producthunt.com/products/terrarun?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-terrarun" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="transition-transform duration-300 hover:scale-105"
+                >
+                  <img 
+                    src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1075918&theme=light&t=1770555267006" 
+                    alt="TerraRun - Turn Every Run Into An Empire | Product Hunt" 
+                    width="250" 
+                    height="54" 
+                    style={{ width: '250px', height: '54px' }}
+                  />
+                </a>
               </div>
         </div>
       </div>
