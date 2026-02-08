@@ -42,12 +42,12 @@ const CTABanner = () => {
 
                   <div className="flex flex-col sm:flex-row items-center gap-4 animate-slide-in-right">
                     <a 
-                      href="https://drive.google.com/uc?export=download&id=1n-dmhKwbSKkd4XOdczXdthRyybDdjb2f"
+                      href="https://play.google.com/store/apps/details?id=com.terrarun.terrarun&pcampaignid=web_share"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="group flex items-center gap-3 bg-[#0F2027] text-white px-8 py-4 rounded-xl font-heading font-bold text-base uppercase tracking-wide hover:scale-105 transition-all duration-300 hover:shadow-2xl"
                     >
-                      Download APK
+                      Get on Google Play
                       <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" />
                     </a>
                   </div>

@@ -53,17 +53,15 @@ const Navbar = () => {
 
                 <div className="flex items-center gap-4">
                   <a 
-                    href="https://drive.google.com/uc?export=download&id=1n-dmhKwbSKkd4XOdczXdthRyybDdjb2f"
+                    href="https://play.google.com/store/apps/details?id=com.terrarun.terrarun&pcampaignid=web_share"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-primary py-2 px-6 flex items-center gap-2 group"
                   >
-                    <svg className="w-5 h-5 transition-transform duration-300 group-hover:translate-y-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                      <polyline points="7,10 12,15 17,10" />
-                      <line x1="12" y1="15" x2="12" y2="3" />
+                    <svg className="w-5 h-5 transition-transform duration-300 group-hover:translate-y-1" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l-3.35 3.35L19.8 19.8l-5.302-7.093zM15.19 11.31l5.96-7.946-8.65 3.75-4.7 2.036 7.39 2.16zM20.95 18.7l1.066-1.42c.407-.542.407-1.277 0-1.82L15.917 10.5l4.437 5.92L20.95 18.7zM3.61 22.186l10.18-10.187L6.44 8.65 3.61 22.186z"/>
                     </svg>
-                    Download APK
+                    Get on Google Play
                   </a>
                 </div>
             </div>
@@ -95,18 +93,16 @@ const Navbar = () => {
             </ul>
             <div className="flex flex-col gap-3 mt-6">
               <a 
-                href="https://drive.google.com/uc?export=download&id=1n-dmhKwbSKkd4XOdczXdthRyybDdjb2f"
+                href="https://play.google.com/store/apps/details?id=com.terrarun.terrarun&pcampaignid=web_share"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary w-full justify-center flex items-center gap-2 group"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                <svg className="w-5 h-5 transition-transform duration-300 group-hover:translate-y-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                  <polyline points="7,10 12,15 17,10" />
-                  <line x1="12" y1="15" x2="12" y2="3" />
+                <svg className="w-5 h-5 transition-transform duration-300 group-hover:translate-y-1" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l-3.35 3.35L19.8 19.8l-5.302-7.093zM15.19 11.31l5.96-7.946-8.65 3.75-4.7 2.036 7.39 2.16zM20.95 18.7l1.066-1.42c.407-.542.407-1.277 0-1.82L15.917 10.5l4.437 5.92L20.95 18.7zM3.61 22.186l10.18-10.187L6.44 8.65 3.61 22.186z"/>
                 </svg>
-                Download APK
+                Get on Google Play
               </a>
             </div>
           </div>
